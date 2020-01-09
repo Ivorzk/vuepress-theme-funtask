@@ -1,0 +1,22 @@
+{
+  "name": "@vuepress/theme-funtask",
+  "private": true,
+  "version": "0.0.8",
+  "description": "Funtask theme for VuePress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/Ivorzk/vuepress-theme-funtask.git"
+  },
+  "keywords": [
+    "funtask",
+    "vuepress",
+    "theme",
+    "suwis"
+  ],
+  "author": "ivorzk@qq.com",
+  "license": "MIT"
+}
