@@ -1,7 +1,6 @@
 {
-  "name": "@vuepress/theme-funtask",
-  "private": true,
-  "version": "0.0.8",
+  "name": "vuepress-theme-funtask",
+  "version": "1.0.0",
   "description": "Funtask theme for VuePress",
   "main": "index.js",
   "scripts": {
@@ -18,5 +17,6 @@
     "suwis"
   ],
   "author": "ivorzk@qq.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
