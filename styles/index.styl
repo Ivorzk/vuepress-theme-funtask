@@ -18,7 +18,10 @@ h6
 
 .theme-container .sidebar > .sidebar-links > li > a.sidebar-link
   font-size: 0.98em
-  font-weight: 500
+  font-weight: lighter
+  color: #686868
+  &.active
+    color: $accentColor
 
 .theme-default-content:not(.custom) > h1, .theme-default-content:not(.custom) > h2, .theme-default-content:not(.custom) > h3, .theme-default-content:not(.custom) > h4, .theme-default-content:not(.custom) > h5, .theme-default-content:not(.custom) > h6
   padding-bottom: 0.68em
@@ -27,8 +30,8 @@ h6
 .navbar
   border-bottom: none
 
-.sidebar .sidebar-sub-headers
-  padding-left: 0.3rem
+body .sidebar .sidebar-sub-headers
+  padding-left: 0.2rem
 
 .sidebar
   border: none
@@ -38,5 +41,9 @@ h6
   margin: 0 auto
   padding: 2rem 2.5rem
 
+@media (max-width: 720px)
+  .theme-default-content:not(.custom)
+    max-width: 100vw
+
 body .page-edit,body .page-nav
-  max-width: 100%;
+  max-width: 100%
