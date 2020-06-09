@@ -1,12 +1,16 @@
 body .sidebar .sidebar-sub-headers
   padding-left: 0.2rem
 
-.theme-container .sidebar > .sidebar-links > li > a.sidebar-link
+.theme-container .sidebar > .sidebar-links > li > a.sidebar-link,
+.theme-container .sidebar-heading span
   font-size: 0.98em
   font-weight: lighter
   color: #686868
   &.active
     color: $accentColor
+
+.sidebar-group a.sidebar-link
+  padding-left: 0
 
 .sidebar
   border: none
